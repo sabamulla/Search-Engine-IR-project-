@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Engine</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@700&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <div class="elements">
+      <div class="header">Yahoo!</div>
+      <div class="search-container">
+        <img src="searchicon.png" alt="Search Icon" class="search-icon" />
+        <input type="text" id="search-input" placeholder="Search..." />
+        <!-- <button id="search-button">Search</button> -->
+        <button id="search-button">Search</button>
+      </div>
+      <div class="options">
+        <button type="button" class="btn btn-inverted-index">Inverted Index</button>
+        <button type="button" class="btn btn-bigram-index">Bigram Index</button>
+        <button type="button" class="btn btn-edit-distance">Edit Distance</button>
+        <button type="button" class="btn btn-permuterm-index">Permuterm Index</button>
+        <button type="button" class="btn btn-wildcard-query">Wild Card Query</button>
+        <button type="button" class="btn btn-soundex-correction">Soundex</button>
+        <button type="button" class="btn btn-webcrawler">WebCrawler</button>
+        <button type="button" class="btn btn-cosine">Precision Recall</button>
+        <button type="button" class="btn btn-feedbackbtn">Feedback</button>
+        <!-- <button type="button" class="btn btn-test">Feedback</button> -->
+      </div>
+      <div class="outer-div">
+        <div class="search-results">
+
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../eel.js"></script>
+    <script src="new.js"></script>
+  </body>
+</html>

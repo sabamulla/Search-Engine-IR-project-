@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a09c9c;
+    margin: 0;
+    padding: 0;
+}
+
+.elements{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #89809e;
+  height: 100vh;
+  background: linear-gradient(45deg,#6c53de,violet,#7462ff,#8500d2,violet);
+
+}
+@keyframes color{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
+
+.header{
+    visibility: visible;
+    margin: 20px;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+}
+
+.search-container {
+    
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    padding: 6px 1px 6px 6px;
+    /* border-radius: 4px; */
+    width: 600px;
+    height: 35px;
+    margin: 20px 40px;
+    /* border: solid  rgb(0, 0, 0); */
+    border-radius: 50px;
+
+    
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    /* margin-top: 6px; */
+    /* margin-right: 5px; */
+    /* padding: 3px 0px 2px 1px; */
+}
+
+#search-input {
+    /* padding: ; */
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    /* background-color: aqua; */
+    width: 478px;
+
+}
+
+/* #search-button {
+
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 27px;
+    outline: none;
+    margin-left: 300px;
+    margin-right: 5px;
+    background-color: blue;
+    color: #ffffff;
+
+} */
+
+
+#search-button {
+    background-color: rgb(85, 18, 218);
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* margin-top: 1px;
+    margin-bottom: 3px; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+}
+
+
+.options{
+    margin-top: 10px ;
+    padding: 4px 0px 4px 0px;
+    display: inline-block;
+    width: 1010px;
+    /* border: solid black 2px; */
+    background-color: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 2px 2px;
+    border: solid 2px rgb(85, 18, 218);
+    cursor: pointer;
+    /* margin: 3px 3px; */
+    /* margin-left: 5px; */
+    border-radius: 15px;
+    background-color: white;
+    /* background-color: #2653d1; Replace with your desired background color */
+    color: rgb(0, 0, 0); /* Text color for buttons */
+    width: 107.35px;
+    font-size: 12px;
+    height: 40px;
+    font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  
+/* .btn:hover{
+    background-color: #835ad1;
+} */
+
+.btn.btn-inverted-index{
+    display: inline-block;
+    padding: 2px 2px;
+    border: solid 2px rgb(85, 18, 218);
+    cursor: pointer;
+    /* margin: 3px 3px; */
+    margin-left: 6px;
+    border-radius: 15px;
+    background-color:  rgb(255, 255, 255);
+    /* background-color: #2653d1; Replace with your desired background color */
+    color: rgb(0, 0, 0); /* Text color for buttons */
+    width: 103px;
+    font-size: 12px;
+    height: 40px;
+    font-weight: bold;
+}
+/* 
+.btn1:hover{
+    background-color: #835ad1;
+} */
+
+
+    
+.outer-div{
+/* border: solid black 2px ; */
+margin: 5px 0px;
+border-radius: 0px 0px 25px 25px;
+background-color: #ffffff;
+width: 1010px;
+height: 450px;
+}
+
+.search-results{
+    /* border: solid black 2px; */
+    background-color: #ffffff;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 970px;
+    height: 395px;
+    border-radius: 25px;
+    overflow: auto;
+    color: #040009;
+    font-size: 12px;
+    font-family: 'Poppins', 'Roboto', 'Ubuntu', sans-serif;
+}
+
+
+
+.search-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.search-table th, .search-table td {
+    border: 2px solid #040009;
+    padding: 8px;
+    text-align: left;
+}
+
+.search-table th {
+    background-color: #454447;
+    color: #ffffff;
+}
+
+.search-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.search-table tr:hover {
+    background-color: #14c2dc;
+}
+
+
+.narrow-table {
+    width: 100%; /* Adjust the width as needed */
+  }
+
+
+/* #search-button:hover {
+    background-color: #6e9146;
+} */
+
+
